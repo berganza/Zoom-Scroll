@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DE72414178DDDAD00DA533F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE72413178DDDAD00DA533F /* UIKit.framework */; };
+		7DE72416178DDDAD00DA533F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE72415178DDDAD00DA533F /* Foundation.framework */; };
+		7DE72418178DDDAD00DA533F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE72417178DDDAD00DA533F /* CoreGraphics.framework */; };
+		7DE7241E178DDDAD00DA533F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DE7241C178DDDAD00DA533F /* InfoPlist.strings */; };
+		7DE72420178DDDAD00DA533F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7241F178DDDAD00DA533F /* main.m */; };
+		7DE72424178DDDAD00DA533F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE72423178DDDAD00DA533F /* AppDelegate.m */; };
+		7DE72426178DDDAE00DA533F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE72425178DDDAD00DA533F /* Default.png */; };
+		7DE72428178DDDAE00DA533F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE72427178DDDAE00DA533F /* Default@2x.png */; };
+		7DE7242A178DDDAE00DA533F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE72429178DDDAE00DA533F /* Default-568h@2x.png */; };
+		7DE7242D178DDDAE00DA533F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE7242B178DDDAE00DA533F /* MainStoryboard_iPhone.storyboard */; };
+		7DE72430178DDDAE00DA533F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE7242E178DDDAE00DA533F /* MainStoryboard_iPad.storyboard */; };
+		7DE72433178DDDAE00DA533F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE72432178DDDAE00DA533F /* ViewController.m */; };
+		7DE7243A178DDE5400DA533F /* luces de noche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DE72439178DDE5400DA533F /* luces de noche.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DE72410178DDDAD00DA533F /* Zoom&Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zoom&Scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE72413178DDDAD00DA533F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DE72415178DDDAD00DA533F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DE72417178DDDAD00DA533F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DE7241B178DDDAD00DA533F /* Zoom&Scroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zoom&Scroll-Info.plist"; sourceTree = "<group>"; };
+		7DE7241D178DDDAD00DA533F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DE7241F178DDDAD00DA533F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DE72421178DDDAD00DA533F /* Zoom&Scroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zoom&Scroll-Prefix.pch"; sourceTree = "<group>"; };
+		7DE72422178DDDAD00DA533F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DE72423178DDDAD00DA533F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DE72425178DDDAD00DA533F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7DE72427178DDDAE00DA533F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7DE72429178DDDAE00DA533F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7DE7242C178DDDAE00DA533F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7DE7242F178DDDAE00DA533F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7DE72431178DDDAE00DA533F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DE72432178DDDAE00DA533F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DE72439178DDE5400DA533F /* luces de noche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "luces de noche.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DE7240D178DDDAD00DA533F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE72414178DDDAD00DA533F /* UIKit.framework in Frameworks */,
+				7DE72416178DDDAD00DA533F /* Foundation.framework in Frameworks */,
+				7DE72418178DDDAD00DA533F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DE72407178DDDAD00DA533F = {
+			isa = PBXGroup;
+			children = (
+				7DE72439178DDE5400DA533F /* luces de noche.jpg */,
+				7DE72419178DDDAD00DA533F /* Zoom&Scroll */,
+				7DE72412178DDDAD00DA533F /* Frameworks */,
+				7DE72411178DDDAD00DA533F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE72411178DDDAD00DA533F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DE72410178DDDAD00DA533F /* Zoom&Scroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DE72412178DDDAD00DA533F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE72413178DDDAD00DA533F /* UIKit.framework */,
+				7DE72415178DDDAD00DA533F /* Foundation.framework */,
+				7DE72417178DDDAD00DA533F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DE72419178DDDAD00DA533F /* Zoom&Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				7DE72422178DDDAD00DA533F /* AppDelegate.h */,
+				7DE72423178DDDAD00DA533F /* AppDelegate.m */,
+				7DE7242B178DDDAE00DA533F /* MainStoryboard_iPhone.storyboard */,
+				7DE7242E178DDDAE00DA533F /* MainStoryboard_iPad.storyboard */,
+				7DE72431178DDDAE00DA533F /* ViewController.h */,
+				7DE72432178DDDAE00DA533F /* ViewController.m */,
+				7DE7241A178DDDAD00DA533F /* Supporting Files */,
+			);
+			path = "Zoom&Scroll";
+			sourceTree = "<group>";
+		};
+		7DE7241A178DDDAD00DA533F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE7241B178DDDAD00DA533F /* Zoom&Scroll-Info.plist */,
+				7DE7241C178DDDAD00DA533F /* InfoPlist.strings */,
+				7DE7241F178DDDAD00DA533F /* main.m */,
+				7DE72421178DDDAD00DA533F /* Zoom&Scroll-Prefix.pch */,
+				7DE72425178DDDAD00DA533F /* Default.png */,
+				7DE72427178DDDAE00DA533F /* Default@2x.png */,
+				7DE72429178DDDAE00DA533F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DE7240F178DDDAD00DA533F /* Zoom&Scroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE72436178DDDAE00DA533F /* Build configuration list for PBXNativeTarget "Zoom&Scroll" */;
+			buildPhases = (
+				7DE7240C178DDDAD00DA533F /* Sources */,
+				7DE7240D178DDDAD00DA533F /* Frameworks */,
+				7DE7240E178DDDAD00DA533F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zoom&Scroll";
+			productName = "Zoom&Scroll";
+			productReference = 7DE72410178DDDAD00DA533F /* Zoom&Scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DE72408178DDDAD00DA533F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LLBER;
+			};
+			buildConfigurationList = 7DE7240B178DDDAD00DA533F /* Build configuration list for PBXProject "Zoom&Scroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DE72407178DDDAD00DA533F;
+			productRefGroup = 7DE72411178DDDAD00DA533F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE7240F178DDDAD00DA533F /* Zoom&Scroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DE7240E178DDDAD00DA533F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE7241E178DDDAD00DA533F /* InfoPlist.strings in Resources */,
+				7DE72426178DDDAE00DA533F /* Default.png in Resources */,
+				7DE72428178DDDAE00DA533F /* Default@2x.png in Resources */,
+				7DE7242A178DDDAE00DA533F /* Default-568h@2x.png in Resources */,
+				7DE7242D178DDDAE00DA533F /* MainStoryboard_iPhone.storyboard in Resources */,
+				7DE72430178DDDAE00DA533F /* MainStoryboard_iPad.storyboard in Resources */,
+				7DE7243A178DDE5400DA533F /* luces de noche.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DE7240C178DDDAD00DA533F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE72420178DDDAD00DA533F /* main.m in Sources */,
+				7DE72424178DDDAD00DA533F /* AppDelegate.m in Sources */,
+				7DE72433178DDDAE00DA533F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DE7241C178DDDAD00DA533F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE7241D178DDDAD00DA533F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DE7242B178DDDAE00DA533F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE7242C178DDDAE00DA533F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7DE7242E178DDDAE00DA533F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE7242F178DDDAE00DA533F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DE72434178DDDAE00DA533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DE72435178DDDAE00DA533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DE72437178DDDAE00DA533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoom&Scroll/Zoom&Scroll-Prefix.pch";
+				INFOPLIST_FILE = "Zoom&Scroll/Zoom&Scroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DE72438178DDDAE00DA533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoom&Scroll/Zoom&Scroll-Prefix.pch";
+				INFOPLIST_FILE = "Zoom&Scroll/Zoom&Scroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DE7240B178DDDAD00DA533F /* Build configuration list for PBXProject "Zoom&Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE72434178DDDAE00DA533F /* Debug */,
+				7DE72435178DDDAE00DA533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE72436178DDDAE00DA533F /* Build configuration list for PBXNativeTarget "Zoom&Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE72437178DDDAE00DA533F /* Debug */,
+				7DE72438178DDDAE00DA533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DE72408178DDDAD00DA533F /* Project object */;
+}
